@@ -1,12 +1,39 @@
-# Disease-prediction
-Disease prediction is the process of identifying the possibility of a disease in a person by analysing their symptoms, medical history, and health-related data.
+# Disease Prediction Project
 
-Disease prediction is the use of data and computational techniques to estimate whether a person is at risk of developing a particular disease.
+This project is a beginner-friendly disease prediction system built with Python and machine learning. It uses a synthetic symptom dataset to train a Random Forest classifier that predicts likely diseases from selected symptoms.
 
-Disease prediction is a healthcare approach that analyses patient information to detect possible diseases at an early stage.
+## Features
 
-Disease prediction using Artificial Intelligence (AI) involves using machine-learning algorithms to study health data and predict potential diseases.
+- Symptom-based disease prediction
+- Easy-to-run Streamlit web app
+- Synthetic dataset for demonstration
+- Beginner-friendly ML workflow
 
-Disease prediction helps healthcare professionals make informed decisions by identifying disease risks before serious symptoms or complications occur.
+## Project Structure
 
-Disease prediction systems are computer-based systems that take inputs such as symptoms, age, lifestyle, and medical records and provide a predicted disease or risk level.
+- `app.py`: Streamlit user interface
+- `disease_prediction.py`: data generation, model training, and prediction logic
+- `requirements.txt`: project dependencies
+
+## Setup
+
+1. Create a Python environment.
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the application:
+
+```bash
+streamlit run app.py
+```
+
+## Example
+
+If a user selects symptoms like `fever`, `cough`, and `loss_of_smell`, the model may predict `covid_19`.
+
+## Notes
+
+This is a demonstration project using a synthetic dataset. For production deployment, use a real medical dataset and consult healthcare professionals.
